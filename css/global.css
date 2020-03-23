@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", "\5B8B\4F53", sans-serif;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul,
+ol,
+dl,
+dd,
+dt {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div,
+ul,
+ol,
+li {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: normal;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.layer {
+    width: 1190px;
+    margin: 0 auto;
+}

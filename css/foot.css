@@ -1,0 +1,118 @@
+.service-cover {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 18px;
+    background: #eaeaea;
+    overflow: hidden;
+    border-bottom: solid 1px #dedede;
+}
+
+.service-cover .service-block {
+    height: 102px;
+}
+
+.service-cover .service-block .slogen {
+    position: relative;
+    display: block;
+    height: 102px;
+    margin-right: -33px;
+    padding: 30px 0 30px 55px;
+    overflow: hidden;
+}
+
+.service-cover .service-block .slogen .item {
+    width: 292px;
+    float: left;
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-indent: 46px;
+    color: #444;
+}
+
+.service-cover .service-block .slogen .item i {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 42px;
+    text-indent: -9999px;
+    background-image: url(../imgs/ico_service.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.service-cover .jd-help {
+    border-top: solid 1px #dedede;
+    font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+}
+
+.service-cover .jd-help .help-block {
+    margin: 0 auto;
+}
+
+.service-cover .jd-help .help-block .wrap {
+    margin-right: -145px;
+    padding: 20px 0 20px 55px;
+}
+
+.service-cover .jd-help .help-block .wrap dl {
+    width: 255px;
+    line-height: 22px;
+    float: left;
+}
+
+.service-cover .jd-help .help-block .wrap dt {
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #777;
+    height: 22px;
+}
+
+.service-cover .jd-help .help-block .wrap dd {
+    font-size: 12px;
+    color: #666;
+    height: 22px;
+    overflow: hidden;
+}
+
+.service-cover .jd-help .help-block .wrap dd a {
+    color: #666;
+}
+
+.footer-cover {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: #eaeaea;
+    text-align: center;
+    font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+}
+
+.footer-cover .footer-block {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-cover .footer-block .copyright_links p {
+    font-size: 0;
+}
+
+.footer-cover .footer-block .copyright_links p a {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-cover .footer-block .copyright_links .copyright_split {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #ccc;
+}
